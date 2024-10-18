@@ -14,7 +14,8 @@ public class Menu : State
         // Transition
         if (Input.GetKeyDown(KeyCode.A))
         {
-            GetComponent<GameStateMachine>().ChangeState(GetComponent<Game>());
+            Debug.Log("Ouverture Scene : LoadingGame");
+            GetComponent<GameStateMachine>().ChangeState(GetComponent<LoadingGame>());
         }
     }
 
