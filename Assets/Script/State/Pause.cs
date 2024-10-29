@@ -3,6 +3,13 @@
 public class Pause : State
 {
     //public GameObject panel;
+    
+    private SceneSM _sm;
+    
+    public Pause(SceneSM stateMachine) : base("Pause", stateMachine)
+    {
+        _sm = (SceneSM)stateMachine;
+    }
 
     public override void Enter()
     {
@@ -17,19 +24,22 @@ public class Pause : State
         if (Input.GetKeyDown(KeyCode.Escape)) // Pour fermer le menu pause
         {
             Debug.Log("Changement Etat : Game");
-            GetComponent<GameStateMachine>().ChangeState(GetComponent<Game>());
+            // GetComponent<SceneSM>().ChangeState(GetComponent<Game>());
+            stateMachine.ChangeState(_sm.gameState);
         }
 
         if (Input.GetKeyDown(KeyCode.R)) // Pour Reload
         {
             Debug.Log("Ouverture Scene : LoadingGame");
-            GetComponent<GameStateMachine>().ChangeState(GetComponent<LoadingGame>());
+            // GetComponent<SceneSM>().ChangeState(GetComponent<LoadingGame>());
+            stateMachine.ChangeState(_sm.loadingState);
         }
 
         if (Input.GetKeyDown(KeyCode.M)) // Pour retour Menu
         {
             Debug.Log("Ouverture Scene : Initialize");
-            GetComponent<GameStateMachine>().ChangeState(GetComponent<Initialize>());
+            // GetComponent<SceneSM>().ChangeState(GetComponent<Initialize>());
+            stateMachine.ChangeState(_sm.initializeState);
         }
     }
 

@@ -6,6 +6,13 @@ public class Initialize : State
 {
     public SceneReference menuSceneRef;
     private AsyncOperation async;
+    
+    private SceneSM _sm;
+    
+    public Initialize(SceneSM stateMachine) : base("Initialize", stateMachine)
+    {
+        _sm = (SceneSM)stateMachine;
+    }
 
     public override void Enter()
     {
@@ -30,7 +37,8 @@ public class Initialize : State
         if (async.progress >= 1f) 
         {
             Debug.Log("Ouverture Scene : " + menuSceneRef);
-            GetComponent<GameStateMachine>().ChangeState(GetComponent<Menu>());
+            // GetComponent<SceneSM>().ChangeState(GetComponent<Menu>());
+            stateMachine.ChangeState(_sm.menuState);
         }
     }
 

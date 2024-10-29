@@ -7,6 +7,13 @@ public class LoadingGame : State
     public SceneReference menuSceneRef;
     private AsyncOperation async;
     private bool isLoaded;
+    
+    private SceneSM _sm;
+    
+    public LoadingGame(SceneSM stateMachine) : base("LoadingGame", stateMachine)
+    {
+        _sm = (SceneSM)stateMachine;
+    }
 
     public override void Enter()
     {
@@ -22,7 +29,8 @@ public class LoadingGame : State
         if (async.progress >= 1f)
         {
             Debug.Log("Ouverture Scene : " + menuSceneRef);
-            GetComponent<GameStateMachine>().ChangeState(GetComponent<Game>());
+            // GetComponent<SceneSM>().ChangeState(GetComponent<Game>());
+            stateMachine.ChangeState(_sm.gameState);
         }
 
     }

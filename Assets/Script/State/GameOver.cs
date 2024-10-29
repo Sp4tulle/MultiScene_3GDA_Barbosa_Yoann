@@ -2,6 +2,12 @@
 
 public class GameOver : State
 {
+    private SceneSM _sm;
+    
+    public GameOver(SceneSM stateMachine) : base("GameOver", stateMachine)
+    {
+        _sm = (SceneSM)stateMachine;
+    }
     public override void Enter()
     {
         Debug.Log("Enter GameOver");
@@ -14,13 +20,15 @@ public class GameOver : State
         if (Input.GetKeyDown(KeyCode.R)) // Pour Reload
         {
             Debug.Log("Ouverture Scene : LoadingGame");
-            GetComponent<GameStateMachine>().ChangeState(GetComponent<LoadingGame>());
+            // GetComponent<SceneSM>().ChangeState(GetComponent<LoadingGame>());
+            stateMachine.ChangeState(_sm.loadingState);
         }
 
         if (Input.GetKeyDown(KeyCode.M)) // Pour retour Menu
         {
             Debug.Log("Ouverture Scene : Initialize");
-            GetComponent<GameStateMachine>().ChangeState(GetComponent<Initialize>());
+            // GetComponent<SceneSM>().ChangeState(GetComponent<Initialize>());
+            stateMachine.ChangeState(_sm.initializeState);
         }
     }
 
