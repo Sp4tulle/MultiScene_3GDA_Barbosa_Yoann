@@ -355,9 +355,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gizmoColor: {r: 0, g: 1, b: 0.38630772, a: 1}
-  chuckToLoad:
+  chunckToLoad:
     asset: {fileID: 102900000, guid: 8f7c7e5e0ec99f94db930e19ede0eaba, type: 3}
     guid: 8f7c7e5e0ec99f94db930e19ede0eaba
+  chunkLoaded:
+    asset: {fileID: 0}
+    guid: 00000000000000000000000000000000
+  chunkPrefab: {fileID: 0}
 --- !u!65 &442295303
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -933,9 +937,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gizmoColor: {r: 1, g: 0.44801706, b: 0, a: 1}
-  chuckToLoad:
+  chunckToLoad:
     asset: {fileID: 102900000, guid: d8c66a537ceb17c47b11d0bdf048f5a6, type: 3}
     guid: d8c66a537ceb17c47b11d0bdf048f5a6
+  chunkLoaded:
+    asset: {fileID: 0}
+    guid: 00000000000000000000000000000000
+  chunkPrefab: {fileID: 0}
 --- !u!1 &1534559004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,9 +1239,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gizmoColor: {r: 1, g: 0, b: 0, a: 1}
-  chuckToLoad:
+  chunckToLoad:
     asset: {fileID: 102900000, guid: 0770c4b8c9fb8d44da0d8e37e8d8db80, type: 3}
     guid: 0770c4b8c9fb8d44da0d8e37e8d8db80
+  chunkLoaded:
+    asset: {fileID: 0}
+    guid: 00000000000000000000000000000000
+  chunkPrefab: {fileID: 0}
 --- !u!65 &1888293595
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1301,9 +1313,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gizmoColor: {r: 0, g: 0.5540085, b: 1, a: 1}
-  chuckToLoad:
+  chunckToLoad:
     asset: {fileID: 102900000, guid: a10803c780637454c8a533e558e23d6f, type: 3}
     guid: a10803c780637454c8a533e558e23d6f
+  chunkLoaded:
+    asset: {fileID: 0}
+    guid: 00000000000000000000000000000000
+  chunkPrefab: {fileID: 0}
 --- !u!65 &1976584134
 BoxCollider:
   m_ObjectHideFlags: 0

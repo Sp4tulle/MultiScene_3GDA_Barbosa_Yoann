@@ -10,8 +10,15 @@ public class MainMenuGameState : GameState
     }
     
     //Used by button - single responsibility
-    public void TransitionToGame()  
+    public void TransitionToLevel1()
     {
+        fsm.selectedLevel = fsm.level1;
+        fsm.ChangeState(GetComponent<LoadingLevelGameState>());
+    }
+
+    public void TransitionToLevel2()
+    {
+        fsm.selectedLevel = fsm.level2;
         fsm.ChangeState(GetComponent<LoadingLevelGameState>());
     }
 

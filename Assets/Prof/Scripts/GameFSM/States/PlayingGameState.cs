@@ -15,7 +15,6 @@ public class PlayingGameState : GameState
        if (Input.GetKeyDown(KeyCode.Escape))
        {
            fsm.ChangeState(GetComponent<PauseGameState>());
-           GameManagerFSM gm = GameManagerFSM.Instance;
        }
     }
 }

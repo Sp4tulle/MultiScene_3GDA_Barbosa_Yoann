@@ -121,19 +121,19 @@ namespace Fragsurf.Movement {
             _colliderObject.transform.SetSiblingIndex (0);
 
             // Water check
-            _cameraWaterCheckObject = new GameObject ("Camera water check");
-            _cameraWaterCheckObject.layer = gameObject.layer;
-            _cameraWaterCheckObject.transform.position = viewTransform.position;
-
-            SphereCollider _cameraWaterCheckSphere = _cameraWaterCheckObject.AddComponent<SphereCollider> ();
-            _cameraWaterCheckSphere.radius = 0.1f;
-            _cameraWaterCheckSphere.isTrigger = true;
-
-            Rigidbody _cameraWaterCheckRb = _cameraWaterCheckObject.AddComponent<Rigidbody> ();
-            _cameraWaterCheckRb.useGravity = false;
-            _cameraWaterCheckRb.isKinematic = true;
-
-            _cameraWaterCheck = _cameraWaterCheckObject.AddComponent<CameraWaterCheck> ();
+            // _cameraWaterCheckObject = new GameObject ("Camera water check");
+            // _cameraWaterCheckObject.layer = gameObject.layer;
+            // _cameraWaterCheckObject.transform.position = viewTransform.position;
+            //
+            // SphereCollider _cameraWaterCheckSphere = _cameraWaterCheckObject.AddComponent<SphereCollider> ();
+            // _cameraWaterCheckSphere.radius = 0.1f;
+            // _cameraWaterCheckSphere.isTrigger = true;
+            //
+            // Rigidbody _cameraWaterCheckRb = _cameraWaterCheckObject.AddComponent<Rigidbody> ();
+            // _cameraWaterCheckRb.useGravity = false;
+            // _cameraWaterCheckRb.isKinematic = true;
+            //
+            // _cameraWaterCheck = _cameraWaterCheckObject.AddComponent<CameraWaterCheck> ();
 
             prevPosition = transform.position;
 
@@ -247,9 +247,9 @@ namespace Fragsurf.Movement {
 
             }
 
-            _moveData.cameraUnderwater = _cameraWaterCheck.IsUnderwater ();
-            _cameraWaterCheckObject.transform.position = viewTransform.position;
-            moveData.underwater = underwater;
+            // _moveData.cameraUnderwater = _cameraWaterCheck.IsUnderwater ();
+            // _cameraWaterCheckObject.transform.position = viewTransform.position;
+            // moveData.underwater = underwater;
             
             if (allowCrouch)
                 _controller.Crouch (this, movementConfig, Time.deltaTime);

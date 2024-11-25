@@ -6,98 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="dfd2bb13-4be4-4169-948c-3a81b0abfe3a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiScene_3GDA_Barbosa_Yoann/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiScene_3GDA_Barbosa_Yoann/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/CameraWaterCheck.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/CameraWaterCheck.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Example player prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Example player prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Extensions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Extensions/IntExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Extensions/IntExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Extensions/VectorExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Extensions/VectorExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Ladder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Ladder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Movement.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Movement/ISurfControllable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Movement/ISurfControllable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Movement/InputButtons.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Movement/InputButtons.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Movement/MoveData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Movement/MoveData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Movement/MovementConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Movement/MovementConfig.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Movement/SurfCharacter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Movement/SurfCharacter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Movement/SurfController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Movement/SurfController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Movement/SurfPhysics.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Movement/SurfPhysics.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/PlayerAiming.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/PlayerAiming.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/TraceUtil.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/TraceUtil/Trace.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/TraceUtil/Trace.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/TraceUtil/Tracer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/TraceUtil/Tracer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Water.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External Assets/Modified fragsurf/Water.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Zone_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Zone_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Zone_02.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Zone_02.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Zone_03.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Zone_03.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Zone_04.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Zone_04.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Boot.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Boot.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zones.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zones/Zone_01.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zones/Zone_01.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zones/Zone_02.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zones/Zone_02.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zones/Zone_03.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zones/Zone_03.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zones/Zone_04.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zones/Zone_04.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/LEO.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/SceneSM.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/SceneSM.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State Machien.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State Machien.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State/Game.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State/Game.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State/GameOver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State/GameOver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State/Initialize.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State/Initialize.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State/LoadingGame.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State/LoadingGame.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State/Menu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State/Menu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State/Pause.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/State/Pause.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChunkLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChunkLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Folder/External Assets/Modified fragsurf/Example player prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Folder/External Assets/Modified fragsurf/Example player prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Folder/External Assets/Modified fragsurf/Movement/SurfCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Folder/External Assets/Modified fragsurf/Movement/SurfCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Folder/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Folder/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Folder/Scenes/Zones/Zone_01.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Folder/Scenes/Zones/Zone_01.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Folder/Scenes/Zones/Zone_02.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Folder/Scenes/Zones/Zone_02.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Folder/Scenes/Zones/Zone_03.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Folder/Scenes/Zones/Zone_03.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Folder/Scenes/Zones/Zone_04.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Folder/Scenes/Zones/Zone_04.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prof/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prof/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prof/Scripts/GameFSM/GameManagerFSM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prof/Scripts/GameFSM/GameManagerFSM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prof/Scripts/GameFSM/States/MainMenuGameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prof/Scripts/GameFSM/States/MainMenuGameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prof/Scripts/GameFSM/States/PauseGameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prof/Scripts/GameFSM/States/PauseGameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prof/Scripts/GameFSM/States/PlayingGameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prof/Scripts/GameFSM/States/PlayingGameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prof/Scripts/GameFSM/States/ReturnToMenuGameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prof/Scripts/Player/ReturnToMenuGameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prof/Scripts/GameFSM/States/ReturnToMenuGameState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prof/Scripts/Player/ReturnToMenuGameState.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +34,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50e5acd061cd4a73b7fc8eecbf07e915176600/9d/6fcb3822/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LevelToLoad.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -178,6 +110,7 @@
       <workItem from="1731152627422" duration="63000" />
       <workItem from="1732353714816" duration="1000" />
       <workItem from="1732547058647" duration="30000" />
+      <workItem from="1732559775767" duration="5542000" />
     </task>
     <servers />
   </component>
@@ -193,5 +126,24 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Prof/Scripts/GameFSM/GameState.cs</url>
+          <line>14</line>
+          <properties documentPath="C:\Users\ybarb\Documents\GitHub\MultiScene_3GDA_Barbosa_Yoann\Assets\Prof\Scripts\GameFSM\GameState.cs" containingFunctionPresentation="Method 'Exit'">
+            <startOffsets>
+              <option value="325" />
+            </startOffsets>
+            <endOffsets>
+              <option value="326" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

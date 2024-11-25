@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class PauseGameState : GameState
 {
     public GameObject pauseMenuPanel;
+    // private ChunkLoader chunkLoader;
     
     public override void Enter()
     {
@@ -23,7 +24,8 @@ public class PauseGameState : GameState
 
     public void ToMenu()
     {
-        SceneManager.UnloadScene(SceneManager.GetActiveScene());
+        // SceneManager.UnloadSceneAsync(chunkLoader.chunkPrefab.GetComponent<ChunkLoader>().chunkLoaded.BuildIndex);
+        SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
         fsm.ChangeState(GetComponent<MainMenuGameState>());
     }
     
