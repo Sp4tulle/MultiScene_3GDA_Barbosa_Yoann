@@ -40,7 +40,7 @@ public class GameManagerFSM : MonoBehaviour
         }
         
         //Make persistent (EZ version)
-        DontDestroyOnLoad(gameObject);
+        // DontDestroyOnLoad(gameObject);
        
         currentState = GetComponent<MainMenuGameState>();
         currentState.Enter();

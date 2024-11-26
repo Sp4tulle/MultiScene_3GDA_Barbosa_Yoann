@@ -11,12 +11,13 @@ public class GameOverGameState : GameState
         Time.timeScale = 0f;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible   = true;
+        // SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().buildIndex);
     }
     
     public void ToMenu()
     {
         SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
-        fsm.ChangeState(GetComponent<MainMenuGameState>());
+        fsm.ChangeState(GetComponent<ReturnToMenuGameState>());
     }
 
     public override void Exit()

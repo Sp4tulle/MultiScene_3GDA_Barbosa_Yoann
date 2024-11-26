@@ -882,6 +882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadingMenu: {fileID: 7155922245696138426}
+  minLoadingTime: 0.5
 --- !u!114 &898125343
 MonoBehaviour:
   m_ObjectHideFlags: 0
