@@ -23,5 +23,6 @@ public class GameOverGameState : GameState
     public override void Exit()
     {
         gameOverMenuPanel.SetActive(false);
+        Time.timeScale = 1f;
     }
 }

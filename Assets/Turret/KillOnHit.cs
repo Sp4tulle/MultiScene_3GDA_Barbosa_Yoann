@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class KillOnHit : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private Transform playerTsfm;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        GameObject GetPlayer = GameObject.FindGameObjectWithTag("Player");
+        playerTsfm = GetPlayer.transform;
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            GameObject gm = GameManagerFSM.Instance.gameObject;
+            GameManagerFSM.Instance.ChangeState(gm.GetComponent<GameOverGameState>()); 
+            Destroy(gameObject);
+        }
     }
 }

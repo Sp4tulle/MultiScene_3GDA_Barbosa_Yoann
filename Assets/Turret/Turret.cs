@@ -18,6 +18,7 @@ public class Turret : MonoBehaviour
 
     private void Start()
     {
+        // Ne marche pas de mon coté, Malgres que la logique soit bonne, Aucune idée de pourquoi cela ne marche pas
         GameObject playerGO = GameObject.FindGameObjectWithTag("Player");
         playerTsfm = playerGO.transform;
     }
@@ -46,6 +47,7 @@ public class Turret : MonoBehaviour
                 //Si le transform de l'objet touché est le transform du joueur : 
                 if (hit.transform == playerTsfm && Time.time > nextFireTime)
                 {
+                    
                     nextFireTime = Time.time + fireRate;
                     Rigidbody projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
                     projectile.AddForce(firePoint.forward * launchVelocity, ForceMode.Impulse);

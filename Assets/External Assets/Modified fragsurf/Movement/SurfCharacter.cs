@@ -66,7 +66,6 @@ namespace Fragsurf.Movement {
         private List<Collider> triggers = new List<Collider> ();
         private int numberOfTriggers = 0;
 
-        private bool underwater = false;
 
         ///// Properties /////
 
@@ -112,29 +111,15 @@ namespace Fragsurf.Movement {
         }
 
         private void Start () {
-            
+
             _colliderObject = new GameObject ("PlayerCollider");
             _colliderObject.layer = gameObject.layer;
             _colliderObject.transform.SetParent (transform);
-            _colliderObject.tag = "Player";
             _colliderObject.transform.rotation = Quaternion.identity;
             _colliderObject.transform.localPosition = Vector3.zero;
             _colliderObject.transform.SetSiblingIndex (0);
+            _colliderObject.tag = "Player";
 
-            // Water check
-            // _cameraWaterCheckObject = new GameObject ("Camera water check");
-            // _cameraWaterCheckObject.layer = gameObject.layer;
-            // _cameraWaterCheckObject.transform.position = viewTransform.position;
-            //
-            // SphereCollider _cameraWaterCheckSphere = _cameraWaterCheckObject.AddComponent<SphereCollider> ();
-            // _cameraWaterCheckSphere.radius = 0.1f;
-            // _cameraWaterCheckSphere.isTrigger = true;
-            //
-            // Rigidbody _cameraWaterCheckRb = _cameraWaterCheckObject.AddComponent<Rigidbody> ();
-            // _cameraWaterCheckRb.useGravity = false;
-            // _cameraWaterCheckRb.isKinematic = true;
-            //
-            // _cameraWaterCheck = _cameraWaterCheckObject.AddComponent<CameraWaterCheck> ();
 
             prevPosition = transform.position;
 
@@ -142,12 +127,12 @@ namespace Fragsurf.Movement {
                 viewTransform = Camera.main.transform;
 
             if (playerRotationTransform == null && transform.childCount > 0)
-                playerRotationTransform = transform.GetChild (0);
+                playerRotationTransform = transform.GetChild(0);
 
-            _collider = gameObject.GetComponent<Collider> ();
+            _collider = gameObject.GetComponent<Collider>();
 
             if (_collider != null)
-                GameObject.Destroy (_collider);
+                GameObject.Destroy(_collider);
 
             // rigidbody is required to collide with triggers
             rb = gameObject.GetComponent<Rigidbody> ();
@@ -234,23 +219,16 @@ namespace Fragsurf.Movement {
             if (numberOfTriggers != triggers.Count) {
                 numberOfTriggers = triggers.Count;
 
-                underwater = false;
                 triggers.RemoveAll (item => item == null);
                 foreach (Collider trigger in triggers) {
 
                     if (trigger == null)
                         continue;
 
-                    if (trigger.GetComponentInParent<Water> ())
-                        underwater = true;
 
                 }
 
             }
-
-            // _moveData.cameraUnderwater = _cameraWaterCheck.IsUnderwater ();
-            // _cameraWaterCheckObject.transform.position = viewTransform.position;
-            // moveData.underwater = underwater;
             
             if (allowCrouch)
                 _controller.Crouch (this, movementConfig, Time.deltaTime);
